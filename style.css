@@ -1,0 +1,150 @@
+/*font-families
+font-family: 'Source Code Pro', monospace;font-family: 'Source Code Pro', monospace;
+Background #0C1021
+values #ABF43B
+orange #F85C0D
+links and http's #33AE3B
+blue #8DA6CE;
+silver #AEAEAE
+highlight #19264C
+*/
+
+
+* {
+	background-color: #0C1021;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Source Code Pro', monospace;
+	color: #fff;
+}
+
+p.style {
+	padding: 5px 5px 0px 5px;
+	border-top: 1px dashed #AEAEAE;
+}
+
+.header {
+  margin: 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.header h4 {
+	color: #F85C0D;
+	text-transform: lowercase;
+	letter-spacing: 0.05em;
+  	text-align: left;
+  	padding: 10px 2px;
+}
+
+.header h4:before {
+	content: "<h4> ";
+	color: #8DA6CE;
+}
+
+.header h4:after {
+	content: " </h4>";
+	color: #8DA6CE;
+}
+
+.header h4 span {
+	font-size: 1em;
+	letter-spacing: 0.08em;
+}
+
+.header .nav {
+  	list-style: none;
+  	margin: 0 auto;
+}
+
+.left {
+	border-right: 1px dashed #AEAEAE;
+	width: 300px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.left {
+	content: " ";
+	display: block;
+	clear: left;
+}
+
+.container {
+	padding: 10px 10px 10px 35px;
+	list-style: decimal-leading-zero;
+}
+
+.para {
+	text-align: left;
+	font-size: 0.9em;
+	color: #fff;
+}
+
+.para:before {
+	content: "<p>";
+	color: #8DA6CE;
+}
+
+.para:after {
+	content: "</p>";
+	color: #8DA6CE;
+}
+
+/* footer navigation */
+
+.nav {
+list-style:none;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	font-size: 0.7em;
+	text-decoration: none;
+}
+
+.nav a:before {
+	content: "{";
+}
+
+.nav a:after {
+	content: "}";
+}
+
+.nav a:hover {
+	color: #33AE3B;
+	background-color: #19264C;
+}
+
+.comment {
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.comment:before {
+	content: "<!-- ";
+}
+
+
+.comment:after {
+	content: " -->";
+}
+
+.foot:first-child {
+	content:"";
+}
+
+.foot:after {
+	color: #F85C0D;
+	content:"\2022";
+	font-size: 0.9em;
+	/* vertical-align:  */
+}
+
+.foot:last-child:after {
+	content:"";
+}⁠⁠⁠⁠
