@@ -16,7 +16,6 @@ highlight #19264C
 	padding: 0;
 	font-size: 16px;
 	font-family: 'Source Code Pro', monospace;
-	color: #fff;
 }
 
 p.style {
@@ -25,9 +24,10 @@ p.style {
 }
 
 .header {
-  margin: 5px;
-  padding: 5px 10px;
-  box-sizing: border-box;
+	min-width: 300px;
+	margin: 5px;
+	padding: 5px 10px;
+	box-sizing: border-box;
 }
 
 .header h4 {
@@ -65,15 +65,10 @@ p.style {
 	margin-left: 10px;
 }
 
-.left {
-	content: " ";
-	display: block;
-	clear: left;
-}
-
 .container {
-	padding: 10px 10px 10px 35px;
+	padding: 10px 10px 10px 60px;
 	list-style: decimal-leading-zero;
+
 }
 
 .para {
@@ -148,3 +143,11 @@ list-style:none;
 .foot:last-child:after {
 	content:"";
 }⁠⁠⁠⁠
+
+/* ul li a .item-title {	
+	color: #33AE3B;
+} */
+
+span {
+	color: #33AE3B;
+}
