@@ -18,9 +18,16 @@ highlight #19264C
 	font-family: 'Source Code Pro', monospace;
 }
 
-p.style {
+em {
+	vertical-align: super;
+	border-bottom: 2px solid #F85C0D; 
+}
+
+span.style {
 	padding: 5px 5px 0px 5px;
-	border-top: 1px dashed #AEAEAE;
+	color: #AEAEAE;
+	white-space: nowrap;
+
 }
 
 .header {
@@ -44,7 +51,7 @@ p.style {
 }
 
 .header h4:after {
-	content: " }";
+	content: "/}";
 	color: #8DA6CE;
 }
 
@@ -59,8 +66,8 @@ p.style {
 }
 
 .left {
-	border-right: 1px dashed #AEAEAE;
-	width: 300px;
+	/* border-right: 1px dashed #AEAEAE; */
+	white-space: normal;
 	padding: 5px;
 	margin-left: 10px;
 }
@@ -90,10 +97,12 @@ list-style:none;
 
 .nav a:before {
 	content: "{";
+	color: #AEAEAE;
 }
 
 .nav a:after {
-	content: "}";
+	content: "/}";
+	color: #AEAEAE;
 }
 
 .nav a:hover {
@@ -109,27 +118,14 @@ list-style:none;
 
 .comment:before, .para:before, .desc:before {
 	content: "<!-- ";
+	color: #AEAEAE;
 }
 
 
 .comment:after, .para:after, .desc:after {
 	content: " -->";
+	color: #AEAEAE;
 }
-
-.foot:first-child {
-	content:"";
-}
-
-.foot:after {
-	color: #F85C0D;
-	content:"\2022";
-	font-size: 0.9em;
-	/* vertical-align:  */
-}
-
-.foot:last-child:after {
-	content:"";
-}⁠⁠⁠⁠
 
 .title {
 	color: #33AE3B;
