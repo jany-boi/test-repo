@@ -19,8 +19,14 @@ highlight #19264C
 }
 
 em {
-	vertical-align: super;
 	border-bottom: 2px solid #F85C0D; 
+}
+
+.adj a {
+	vertical-align: super;
+	font-size: 0.7em;
+
+	
 }
 
 span.style {
@@ -37,7 +43,7 @@ span.style {
 	box-sizing: border-box;
 }
 
-.header h4 {
+.header p {
 	color: #F85C0D;
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
@@ -45,34 +51,30 @@ span.style {
   	padding: 10px 2px;
 }
 
-.header h4:before {
+.header p:before {
 	content: "{ ";
 	color: #8DA6CE;
 }
 
-.header h4:after {
+.header p:after {
 	content: "/}";
 	color: #8DA6CE;
 }
 
-.header h4 span {
-	font-size: 1em;
-	letter-spacing: 0.08em;
-}
 
 .header .nav {
   	list-style: none;
   	margin: 0 auto;
 }
 
-.left {
+div.left {
 	/* border-right: 1px dashed #AEAEAE; */
 	white-space: normal;
 	padding: 5px;
 	margin-left: 10px;
 }
 
-.para {
+p.para {
 	text-align: left;
 	font-size: 0.9em;
 	color: #fff;
