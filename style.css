@@ -22,18 +22,10 @@ em {
 	border-bottom: 2px solid #F85C0D; 
 }
 
-.adj a {
-	vertical-align: super;
-	font-size: 0.7em;
-
-	
-}
-
 span.style {
 	padding: 5px 5px 0px 5px;
 	color: #AEAEAE;
 	white-space: nowrap;
-
 }
 
 .header {
