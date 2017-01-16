@@ -1,5 +1,5 @@
 /*font-families
-font-family: 'Source Code Pro', monospace;font-family: 'Source Code Pro', monospace;
+font-family: 'Inconsolata', monospace;
 Background #0C1021
 values #ABF43B
 orange #F85C0D
@@ -15,7 +15,7 @@ highlight #19264C
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 em {
