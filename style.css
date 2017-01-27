@@ -1,5 +1,5 @@
 /*font-families
-font-family: 'Source Code Pro', monospace;font-family: 'Source Code Pro', monospace;
+font-family: 'Inconsolata', monospace;
 Background #0C1021
 values #ABF43B
 orange #F85C0D
@@ -15,7 +15,7 @@ highlight #19264C
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 em {
@@ -23,8 +23,11 @@ em {
 }
 
 span.style {
+	display: inline-block;
 	padding: 5px 5px 0px 5px;
 	color: #AEAEAE;
+	overflow: hidden;
+	float: left;
 	white-space: nowrap;
 }
 
@@ -60,7 +63,6 @@ span.style {
 }
 
 div.left {
-	/* border-right: 1px dashed #AEAEAE; */
 	white-space: normal;
 	padding: 5px;
 	margin-left: 10px;
@@ -130,14 +132,33 @@ list-style:none;
 #container {
 	padding: 10px 10px 10px 60px;
 	list-style: decimal-leading-zero;
+	font-weight: 700;
 	color: #AEAEAE;
 }
 
 .item-title {
 	text-decoration: none;
-	color: #33AE3B 
+	color: #33AE3B ;
+	font-weight: 700;
+	font-size: 1.09em;
+	padding: 5px;
+}
+
+.desc {
+	color: #ffffff;
+	padding: 5px;
+	font-size: 0.9em;
+	font-weight: 400;
 }
 
 #container p {
 	color: #FFFFFF;
+	width: 25%;
+	
+}
+
+
+@media (min-width: 1024px)
+.multi-column {
+	column-count: 3;
 }
